@@ -1,0 +1,42 @@
+// bower:scss
+// endbower
+@import "colors";
+@import "fonts";
+@import "grid";
+@import "forms";
+@import "cards";
+@import "default";
+@import "gradient";
+@import "buttons";
+
+body {
+  font-family: 'roboto';
+  padding: 0;
+  margin: 0;
+}
+
+.header  {
+
+  height: 100vh;
+  text-align: center;
+  .brand  {
+
+    padding: 4rem 3rem;
+    box-shadow: 0px 0px 34px 0px rgba(33, 33, 33, 0.08);
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    h2  {
+
+      margin-top: 8rem;
+    }
+  }
+
+  .center-text  {
+
+    margin-top: 2rem;
+  }
+}
+
+
