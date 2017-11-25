@@ -1,20 +1,3 @@
-// bower:scss
-// endbower
-@import "colors";
-@import "fonts";
-@import "grid";
-@import "forms";
-@import "cards";
-@import "default";
-@import "gradient";
-@import "buttons";
-
-body {
-  font-family: 'roboto';
-  padding: 0;
-  margin: 0;
-}
-
 .header  {
 
   height: 100vh;
@@ -30,6 +13,18 @@ body {
     h2  {
 
       margin-top: 8rem;
+    }
+    .responsive-image  {
+
+      img  {
+        width: 40%;
+        @media screen and (max-width: 1400px) {
+          width: 60%
+        }
+        @media screen and (max-width: 600px) {
+          width: 100%
+        }
+      }
     }
   }
 
