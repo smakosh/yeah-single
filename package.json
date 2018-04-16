@@ -4,7 +4,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "build": "npm install gulp-cli && gulp build"
+    "build": "yarn add gulp-cli gulp && gulp build"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
